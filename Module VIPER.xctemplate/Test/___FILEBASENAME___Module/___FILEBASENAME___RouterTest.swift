@@ -47,6 +47,7 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTest: XCTestCase {
         fakePresenter = Fake___FILEBASENAME___Presenter(interface: fakeView,
                                                     interactor: fakeInteractor,
                                                     router: router)
+        fakeInteractor.output = fakePresenter
     }
 }
 
