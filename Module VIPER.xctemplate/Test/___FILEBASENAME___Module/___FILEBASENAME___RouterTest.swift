@@ -13,8 +13,8 @@ import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___RouterTest: XCTestCase {
     var fakeView: Fake___FILEBASENAME___ViewController!
-    var fakePresenter: ___FILEBASENAME___Presenter!
-    var fakeInteractor: ___FILEBASENAME___Interactor!
+    var fakePresenter: Fake___FILEBASENAME___Presenter!
+    var fakeInteractor: Fake___FILEBASENAME___Interactor!
     
     var router: ___FILEBASENAME___Router!
     
@@ -41,10 +41,10 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTest: XCTestCase {
         router.viewController = fakeView
         
         //Model
-        fakeInteractor = ___FILEBASENAME___Interactor()
+        fakeInteractor = Fake___FILEBASENAME___Interactor()
         
         //Presenter
-        fakePresenter = ___FILEBASENAME___Presenter(interface: fakeView,
+        fakePresenter = Fake___FILEBASENAME___Presenter(interface: fakeView,
                                                     interactor: fakeInteractor,
                                                     router: router)
     }

@@ -14,7 +14,7 @@ import XCTest
 class ___FILEBASENAMEASIDENTIFIER___PresenterTest: XCTestCase {
     var fakeRouter: Fake___FILEBASENAME___Router!
     var fakeView: Fake___FILEBASENAME___ViewController!
-    var fakeInteractor: ___FILEBASENAME___Interactor!
+    var fakeInteractor: Fake___FILEBASENAME___Interactor!
     
     var presenter: ___FILEBASENAME___Presenter!
     
@@ -40,7 +40,7 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTest: XCTestCase {
         fakeRouter.viewController = fakeView
         
         //Model
-        fakeInteractor = ___FILEBASENAME___Interactor()
+        fakeInteractor = Fake___FILEBASENAME___Interactor()
         
         //Presenter
         presenter = ___FILEBASENAME___Presenter(interface: fakeView,
