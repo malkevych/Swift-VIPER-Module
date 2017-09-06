@@ -1,5 +1,5 @@
 //
-//  Fake___FILENAME___
+//  ___FILENAME___
 //  ___PROJECTNAME___
 //
 //  Created ___FULLUSERNAME___ on ___DATE___.
