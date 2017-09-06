@@ -10,9 +10,9 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    unowned private var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol
+    unowned fileprivate var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol
     var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol?
-    private let router: ___FILEBASENAMEASIDENTIFIER___WireframeProtocol
+    fileprivate let router: ___FILEBASENAMEASIDENTIFIER___WireframeProtocol
 
     init(interface: ___FILEBASENAMEASIDENTIFIER___ViewProtocol,
          interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol?,
