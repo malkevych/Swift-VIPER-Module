@@ -1,5 +1,5 @@
 //
-//  ___FILENAME___
+//  Fake___FILENAME___
 //  ___PROJECTNAME___
 //
 //  Created ___FULLUSERNAME___ on ___DATE___.
@@ -8,8 +8,9 @@
 //
 
 import UIKit
+@testable import ___PROJECTNAME___
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
+class Fake___FILEBASENAMEASIDENTIFIER___Presenter {
     unowned fileprivate var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol
     var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol
     fileprivate let router: ___FILEBASENAMEASIDENTIFIER___WireframeProtocol
@@ -23,10 +24,10 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
+extension Fake___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
+extension Fake___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
     
 }

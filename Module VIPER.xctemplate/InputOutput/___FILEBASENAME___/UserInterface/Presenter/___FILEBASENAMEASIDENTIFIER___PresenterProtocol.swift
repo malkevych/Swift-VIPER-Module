@@ -9,6 +9,6 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocol: class {
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol? { get set }
+    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol { get set }
     
 }
