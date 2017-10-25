@@ -11,7 +11,7 @@ import Foundation
 import XCTest
 @testable import ___PROJECTNAME___
 
-class ___FILEBASENAMEASIDENTIFIER___PresenterTest: XCTestCase {
+class ___VARIABLE_MODULE_NAME___PresenterTest: XCTestCase {
     var fakeRouter: Fake___FILEBASENAME___Router!
     var fakeView: Fake___FILEBASENAME___ViewController!
     var fakeInteractor: Fake___FILEBASENAME___Interactor!
@@ -50,7 +50,7 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTest: XCTestCase {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___PresenterTest {
+extension ___VARIABLE_MODULE_NAME___PresenterTest {
     func test() {
         
     }

@@ -9,10 +9,10 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol?
+class ___VARIABLE_MODULE_NAME___Interactor {
+    weak var output: ___VARIABLE_MODULE_NAME___InteractorOutputProtocol?
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor : ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol {
+extension ___VARIABLE_MODULE_NAME___Interactor : ___VARIABLE_MODULE_NAME___InteractorInputProtocol {
     
 }

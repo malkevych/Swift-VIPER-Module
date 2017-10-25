@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
-    weak var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol?
+class ___VARIABLE_MODULE_NAME___Interactor {
+    weak var presenter: ___VARIABLE_MODULE_NAME___PresenterProtocol?
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor : ___FILEBASENAMEASIDENTIFIER___InteractorProtocol {
+extension ___VARIABLE_MODULE_NAME___Interactor : ___VARIABLE_MODULE_NAME___InteractorProtocol {
     
 }

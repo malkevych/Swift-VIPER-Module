@@ -10,8 +10,8 @@
 import UIKit
 @testable import ___PROJECTNAME___
 
-class Fake___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-	var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol?
+class Fake___VARIABLE_MODULE_NAME___ViewController: UIViewController {
+	var presenter: ___VARIABLE_MODULE_NAME___PresenterProtocol?
 
 	override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,6 @@ class Fake___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
 }
 
-extension Fake___FILEBASENAMEASIDENTIFIER___ViewController : ___FILEBASENAMEASIDENTIFIER___ViewProtocol {
+extension Fake___VARIABLE_MODULE_NAME___ViewController : ___VARIABLE_MODULE_NAME___ViewProtocol {
     
 }

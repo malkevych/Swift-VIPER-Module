@@ -10,11 +10,11 @@
 import UIKit
 @testable import ___PROJECTNAME___
 
-class Fake___FILEBASENAMEASIDENTIFIER___Router {
+class Fake___VARIABLE_MODULE_NAME___Router {
     weak var viewController: UIViewController?
 
 }
 
-extension Fake___FILEBASENAMEASIDENTIFIER___Router : ___FILEBASENAMEASIDENTIFIER___WireframeProtocol {
+extension Fake___VARIABLE_MODULE_NAME___Router : ___VARIABLE_MODULE_NAME___WireframeProtocol {
     
 }

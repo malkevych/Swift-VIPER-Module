@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol: class {
+protocol ___VARIABLE_MODULE_NAME___InteractorOutputProtocol: class {
     
 }

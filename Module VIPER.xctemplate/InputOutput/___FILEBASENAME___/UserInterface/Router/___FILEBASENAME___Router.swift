@@ -9,11 +9,11 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Router {
+class ___VARIABLE_MODULE_NAME___Router {
     weak var viewController: UIViewController?
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Router : ___FILEBASENAMEASIDENTIFIER___WireframeProtocol {
+extension ___VARIABLE_MODULE_NAME___Router : ___VARIABLE_MODULE_NAME___WireframeProtocol {
     
 }

@@ -8,8 +8,8 @@
 
 import Foundation
 
-/* Presenter -> Interactor */
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol: class {
-    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol?  { get set }
+
+protocol ___VARIABLE_MODULE_NAME___InteractorInputProtocol: class {
+    var output: ___VARIABLE_MODULE_NAME___InteractorOutputProtocol?  { get set }
     
 }

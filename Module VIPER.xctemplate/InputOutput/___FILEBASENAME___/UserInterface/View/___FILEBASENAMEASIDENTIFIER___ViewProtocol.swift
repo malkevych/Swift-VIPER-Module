@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewProtocol: class {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol?  { get set }
+protocol ___VARIABLE_MODULE_NAME___ViewProtocol: class {
+    var presenter: ___VARIABLE_MODULE_NAME___PresenterProtocol?  { get set }
     
 }

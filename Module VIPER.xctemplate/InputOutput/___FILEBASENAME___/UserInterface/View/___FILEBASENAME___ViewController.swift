@@ -9,8 +9,8 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-	var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol?
+class ___VARIABLE_MODULE_NAME___ViewController: UIViewController {
+	var presenter: ___VARIABLE_MODULE_NAME___PresenterProtocol?
 
 	override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController : ___FILEBASENAMEASIDENTIFIER___ViewProtocol {
+extension ___VARIABLE_MODULE_NAME___ViewController : ___VARIABLE_MODULE_NAME___ViewProtocol {
     
 }

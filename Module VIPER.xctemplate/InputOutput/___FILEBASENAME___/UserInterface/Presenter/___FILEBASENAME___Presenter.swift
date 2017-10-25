@@ -9,24 +9,24 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    unowned fileprivate var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol
-    fileprivate let router: ___FILEBASENAMEASIDENTIFIER___WireframeProtocol
+class ___VARIABLE_MODULE_NAME___Presenter {
+    unowned fileprivate var view: ___VARIABLE_MODULE_NAME___ViewProtocol
+    var interactor: ___VARIABLE_MODULE_NAME___InteractorInputProtocol
+    fileprivate let router: ___VARIABLE_MODULE_NAME___WireframeProtocol
 
-    init(interface: ___FILEBASENAMEASIDENTIFIER___ViewProtocol,
-         interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol,
-         router: ___FILEBASENAMEASIDENTIFIER___WireframeProtocol) {
+    init(interface: ___VARIABLE_MODULE_NAME___ViewProtocol,
+         interactor: ___VARIABLE_MODULE_NAME___InteractorInputProtocol,
+         router: ___VARIABLE_MODULE_NAME___WireframeProtocol) {
         self.view = interface
         self.interactor = interactor
         self.router = router
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
+extension ___VARIABLE_MODULE_NAME___Presenter : ___VARIABLE_MODULE_NAME___PresenterProtocol {
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
+extension ___VARIABLE_MODULE_NAME___Presenter : ___VARIABLE_MODULE_NAME___InteractorOutputProtocol {
     
 }

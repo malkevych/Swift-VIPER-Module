@@ -10,10 +10,10 @@
 import UIKit
 @testable import ___PROJECTNAME___
 
-class Fake___FILEBASENAMEASIDENTIFIER___Interactor {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol?
+class Fake___VARIABLE_MODULE_NAME___Interactor {
+    weak var output: ___VARIABLE_MODULE_NAME___InteractorOutputProtocol?
 }
 
-extension Fake___FILEBASENAMEASIDENTIFIER___Interactor : ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol {
+extension Fake___VARIABLE_MODULE_NAME___Interactor : ___VARIABLE_MODULE_NAME___InteractorInputProtocol {
     
 }

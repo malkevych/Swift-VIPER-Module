@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___WireframeProtocol: class {
+protocol ___VARIABLE_MODULE_NAME___WireframeProtocol: class {
     
 }

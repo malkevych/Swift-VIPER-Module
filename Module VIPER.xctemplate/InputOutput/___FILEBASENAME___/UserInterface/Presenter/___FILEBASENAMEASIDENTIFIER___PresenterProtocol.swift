@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocol: class {
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol { get set }
+protocol ___VARIABLE_MODULE_NAME___PresenterProtocol: class {
+    var interactor: ___VARIABLE_MODULE_NAME___InteractorInputProtocol { get set }
     
 }
