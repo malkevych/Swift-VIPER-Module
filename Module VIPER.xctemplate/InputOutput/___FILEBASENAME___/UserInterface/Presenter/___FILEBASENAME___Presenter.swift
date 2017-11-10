@@ -5,11 +5,11 @@
 //  Created ___FULLUSERNAME___ on ___DATE___.
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
-//
+
 
 import UIKit
 
-class ___VARIABLE_MODULE_NAME___Presenter {
+final class ___VARIABLE_MODULE_NAME___Presenter {
     unowned fileprivate var view: ___VARIABLE_MODULE_NAME___ViewProtocol
     var interactor: ___VARIABLE_MODULE_NAME___InteractorInputProtocol
     fileprivate let router: ___VARIABLE_MODULE_NAME___WireframeProtocol
@@ -24,7 +24,9 @@ class ___VARIABLE_MODULE_NAME___Presenter {
 }
 
 extension ___VARIABLE_MODULE_NAME___Presenter : ___VARIABLE_MODULE_NAME___PresenterProtocol {
-    
+    func setup() {
+        interactor.setup()
+    }
 }
 
 extension ___VARIABLE_MODULE_NAME___Presenter : ___VARIABLE_MODULE_NAME___InteractorOutputProtocol {
